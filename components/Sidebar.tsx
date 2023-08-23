@@ -34,7 +34,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
     [pathname]
   );
   return (
-    <div className={twMerge('flex h-full')}>
+    <div className={twMerge('flex h-full font-medium')}>
       <div className='hidden md:flex flex-col gap-y-2 bg-black h-full w-[300px] p-2'>
         <Box>
           <div className='flex flex-col gap-y-4 px-5 py-4'>
