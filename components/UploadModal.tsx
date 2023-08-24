@@ -17,7 +17,7 @@ interface UploadModalProps {}
 function UploadModal({}: UploadModalProps) {
   const [isLoading, setIsLoading] = useState(false);
   const uploadModal = useUploadModal();
-  const user = useUser();
+  const { user } = useUser();
   const supabaseClient = useSupabaseClient();
   const router = useRouter();
 
