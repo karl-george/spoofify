@@ -19,7 +19,7 @@ function Player({}: PlayerProps) {
 
   return (
     <div className='fixed bottom-0 bg-black w-full py-2 px-4 h-[80px]'>
-      <PlayerContent />
+      <PlayerContent song={song} songUrl={songUrl} key={songUrl} />
     </div>
   );
 }
